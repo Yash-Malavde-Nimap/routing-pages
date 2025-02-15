@@ -17,7 +17,7 @@ const HomePage = () => {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    background: 'linear-gradient(45deg, #4CAF50, #3a8d42)',
+    background: 'linear-gradient(45deg, #4CAF50, #1d26be)',
     textAlign: 'center',
     color: '#fff',
     padding: '20px',

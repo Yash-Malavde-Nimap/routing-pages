@@ -17,7 +17,6 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     // Basic validation
     if (!formData.email || !formData.password) {
       setError('Please fill in all fields');
@@ -41,6 +40,8 @@ const Login = () => {
     alignItems: 'center',
   };
 
+  // Checking Error Boundary
+  
   const formContainerStyle = {
     backgroundColor: '#282828',
     padding: '40px',
@@ -91,6 +92,8 @@ const Login = () => {
     fontSize: '14px',
     marginTop: '10px',
   };
+  // Check Error Boundary by commenting out the Error
+  // throw new Error('New Error');
 
   return (
     <div style={pageStyle}>
@@ -137,5 +140,7 @@ const Login = () => {
     </div>
   );
 };
+
+
 
 export default Login;

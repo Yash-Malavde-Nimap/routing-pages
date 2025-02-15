@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   // Inline CSS styles
   const navbarStyle = {
+    position:'fixed',
+    width:'100vw',
     backgroundColor: "#333",
     padding: "30px 20px",
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
     fontFamily:'sans-serif',
+    opacity:'90%'
   };
 
   const linkStyle = {
